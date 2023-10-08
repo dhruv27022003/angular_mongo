@@ -7,6 +7,7 @@
     "node": ">=18 <19"
 },
   "scripts": {
+    "start": "cd backend && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "cd backend && npm run build",
     "build": "cd rentbi && npm run build"
