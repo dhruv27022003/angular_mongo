@@ -4,9 +4,9 @@ import path from 'path';
 import express from "express";
 import cors from "cors";
 import bodyParser from 'body-parser';
-import BikeRouter from '/Users/rishabhdadheech/Desktop/Dhruv/webd/express/backend/routers/bike.router.js';
-import orderRouter from '/Users/rishabhdadheech/Desktop/Dhruv/webd/express/backend/routers/order.router.js';
-import  { dbConnect } from '/Users/rishabhdadheech/Desktop/Dhruv/webd/express/backend/configs/database.config.js';
+import BikeRouter from './routers/bike.router.js';
+import orderRouter from './routers/order.router.js';
+import  { dbConnect } from './configs/database.config.js';
 dbConnect();
 // const bodyParser = require('body-parser');
 

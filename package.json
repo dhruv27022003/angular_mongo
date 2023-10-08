@@ -1,0 +1,24 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18 <19"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "cd backend && npm run build",
+    "build": "cd rentbi && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv27022003/food_mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv27022003/food_mern/issues"
+  },
+  "homepage": "https://github.com/dhruv27022003/food_mern#readme"
+}
